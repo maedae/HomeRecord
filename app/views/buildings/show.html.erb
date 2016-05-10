@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @building.address %>
+</p>
+
+<p>
+  <strong>Landord name:</strong>
+  <%= @building.landord_name %>
+</p>
+
+<p>
+  <strong>Move in:</strong>
+  <%= @building.move_in %>
+</p>
+
+<p>
+  <strong>Move out:</strong>
+  <%= @building.move_out %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @building.image %>
+</p>
+
+<p>
+  <strong>Lease ended:</strong>
+  <%= @building.lease_ended %>
+</p>
+
+<%= link_to 'Edit', edit_building_path(@building) %> |
+<%= link_to 'Back', buildings_path %>
